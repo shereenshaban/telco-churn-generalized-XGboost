@@ -84,6 +84,3 @@ pip install -r requirements.txt
 - Inspect XGBoost feature importances to prune low-value one-hot columns (e.g. the perfectly correlated "No internet service" dummy columns) and simplify the feature set.
 - Test threshold tuning (instead of the default 0.5) against a business cost matrix (cost of missed churner vs. cost of false alarm), since AUC alone doesn't reflect deployment costs.
 
-## License
-
-Add a license of your choice (e.g., MIT) if this repo is public.
